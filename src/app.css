@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Outfit:wght@200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+}
+
+a {
+  text-decoration: none;
+  color: #0067ab;
+}
+
+a:hover {
+  color: #0037a1;
+  text-underline-offset: 4px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
