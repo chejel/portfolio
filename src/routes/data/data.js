@@ -1,7 +1,7 @@
 export const data = [
   {
     plotLink: "https://chejel.github.io/us-county-search",
-    imgLink: "./../../images/us-county-search-ss.png",
+    imgLink: "./../images/us-county-search-ss.png",
     imgAlt: "US county map screenshot",
     plotTitle: "U.S. County Highlights",
     plotDescription:
