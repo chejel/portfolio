@@ -18,6 +18,7 @@
       background-color: #eee;
     }
   </style>
+  <title>Jennifer Cheng | Portfolio</title>
 </svelte:head>
 <div class="header-curve" />
 <header>
