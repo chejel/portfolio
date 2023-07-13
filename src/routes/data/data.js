@@ -52,7 +52,7 @@ export const data = [
     imgLink: "./../../images/eurovision-ss.png",
     imgAlt: "Eurovision chart screenshot",
     plotTitle: "Years of Eurovision",
-    plotDescription: `A line chart showing increasing divide between critic and fan ratings. Recreating <a href="https://www.bloomberg.com/news/newsletters/2022-08-28/critics-and-fans-have-never-disagreed-more-about-movies" target="_blank">Bloomberg</a>.`,
+    plotDescription: `A visualization showcasing the results of the song contest since its inception.`,
     type: "personal",
     tags: ["R", "Visualizations"],
   },
@@ -86,7 +86,7 @@ export const data = [
   {
     plotLink: "https://jenche.shinyapps.io/lpexp",
     imgLink: "./../../images/landlords-ss.png",
-    imgAlt: "dashboard",
+    imgAlt: "Dashboard",
     plotTitle: "Landlords Project dashboard",
     plotDescription: `Dashboard made in Shiny to examine data on the expenses incurred by residential properties. Part of capstone project on housing data in NYC, completed in 2022. Not mobile-friendly.`,
     type: "work",
