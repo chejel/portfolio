@@ -81,12 +81,13 @@ export const data = [
     plotTitle: "Disrepair, Displacement and Distress",
     plotDescription: `Capstone project made in React that focuses on NYC housing data, completed in 2022.`,
     type: "work",
-    tags: ["R", "Visualizations", "Design & layout"],
+    tags: ["R", "Visualizations", "Design & layout", "Mapping"],
   },
 ];
 
 let tagsArray = [];
 data.forEach(d => {
-  tagsArray = [...tagsArray, ...d.tags];
+  tagsArray = [...tagsArray, ...d.tags.map(d => d.toLowerCase())];
 });
 export let uniqueTags = [...new Set(tagsArray)];
+console.log(uniqueTags);
