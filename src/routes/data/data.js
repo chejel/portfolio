@@ -83,15 +83,6 @@ export const data = [
     type: "work",
     tags: ["R", "Visualizations", "Design & layout"],
   },
-  {
-    plotLink: "https://jenche.shinyapps.io/lpexp",
-    imgLink: "./../../images/landlords-ss.png",
-    imgAlt: "Dashboard",
-    plotTitle: "Landlords Project dashboard",
-    plotDescription: `Dashboard made in Shiny to examine data on the expenses incurred by residential properties. Part of capstone project on housing data in NYC, completed in 2022. Not mobile-friendly.`,
-    type: "work",
-    tags: ["R", "Visualizations", "Mapping"],
-  },
 ];
 
 let tagsArray = [];
