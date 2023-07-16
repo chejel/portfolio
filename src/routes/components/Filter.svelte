@@ -31,23 +31,22 @@
   </div>
 
   <!-- show all button -->
-  <div>
-    <div
-      class="tag tag-all"
-      on:click={selectTag}
-      class:active={selectedTagName === "Show all projects" ||
-        selectedTagName === "Showing all projects" ||
-        selectedTagName === ""}
-    >
-      Showing all projects &nbsp;<i class="fa-solid fa-circle-arrow-down fa-sm" />
-    </div>
+
+  <div
+    class="tag tag-all"
+    on:click={selectTag}
+    class:active={selectedTagName === "Show all projects" ||
+      selectedTagName === "Showing all projects" ||
+      selectedTagName === ""}
+  >
+    Showing all projects &nbsp;<i class="fa-solid fa-circle-arrow-down fa-sm" />
   </div>
 </div>
 
 <style>
   .tags-container {
     margin: 0;
-    padding: 0.5rem;
+    padding: 0;
   }
 
   div {

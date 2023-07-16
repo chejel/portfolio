@@ -70,13 +70,14 @@
 
   section,
   header {
-    width: min(100%, 45rem);
+    width: min(100%, 45em);
     margin-inline: auto;
     text-align: center;
+    padding-bottom: 0;
   }
 
   header {
-    padding-top: 2rem;
+    padding: 2em;
   }
 
   main {

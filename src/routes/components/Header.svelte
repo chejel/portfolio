@@ -9,7 +9,8 @@
 >
 <br /><br />
 
-<h3 class="intro">I create visuals to make data more understandable and personal, using:</h3>
+<p class="intro">I create visuals with the aim of making data more understandable and personal.</p>
+<br />I use:
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap");
@@ -19,10 +20,5 @@
     color: #2a2f4f;
     font-weight: 700;
     text-transform: uppercase;
-  }
-
-  h3.intro {
-    font-weight: normal;
-    font-size: 1rem;
   }
 </style>
