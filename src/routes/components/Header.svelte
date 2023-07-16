@@ -4,9 +4,9 @@
 <img src="./../../images/sig-header.png" width="400" alt="signature" />
 <h2 class="portfolio">Portfolio</h2>
 <br />
-<a href="mailto:chejenj@gmail.com"><i class="fa-regular fa-envelope fa-xl" /></a> &nbsp;&nbsp;<a
+<a href="https://chejel.github.io/data-blog/"><i class="fa-regular fa-pen-to-square fa-lg" /></a>&nbsp;&nbsp;&nbsp;<a
   href="https://github.com/chejel/"><i class="fa-brands fa-github fa-lg" /></a
->
+>&nbsp;&nbsp;&nbsp;<a href="mailto:chejenj@gmail.com"><i class="fa-regular fa-envelope fa-xl" /></a>
 <br /><br />
 
 <p class="intro">I create visuals with the aim of making data more understandable and personal.</p>

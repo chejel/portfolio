@@ -73,11 +73,10 @@
     width: min(100%, 45em);
     margin-inline: auto;
     text-align: center;
-    padding-bottom: 0;
   }
 
   header {
-    padding: 2em;
+    padding: 2em 0 0;
   }
 
   main {

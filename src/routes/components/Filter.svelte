@@ -46,7 +46,7 @@
 <style>
   .tags-container {
     margin: 0;
-    padding: 0;
+    padding: 0 0.5em;
   }
 
   div {
