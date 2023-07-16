@@ -46,7 +46,7 @@
 <style>
   .tags-container {
     margin: 0;
-    padding: 0 0.5em;
+    padding: 0 0.5em 0.5em;
   }
 
   div {
@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5em;
   }
 
   .tag {
