@@ -65,7 +65,7 @@ export const data = [
       link: "https://latinomediacontent.journalism.cuny.edu/",
       imgLink: "./../../images/latino-media.png",
       imgAlt: "Screenshots of waffle, bar and line charts for Latino media report",
-      title: "News Agenda of Latino Media in the U.S.",
+      title: "News Agenda of Latino Media",
       description: "Charts made for content analysis report on Spanish-language media coverage in the U.S., including on <a href='https://latinomediacontent.journalism.cuny.edu/en/immigrants-hispanics-latinos/'>terminology</a>, <a href='https://latinomediacontent.journalism.cuny.edu/en/immigration-work-health/'>immigration coverage</a>, <a href='https://latinomediacontent.journalism.cuny.edu/en/racism/'>racism</a> and <a href='https://latinomediacontent.journalism.cuny.edu/en/increased-attention-democratic-party/'>political parties</a>.",
       org: "<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>",
       date: "2020-08-18",
