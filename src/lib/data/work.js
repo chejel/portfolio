@@ -1,8 +1,20 @@
 export const data = [
+  {
+    link: "https://icnus.netlify.app/",
+    imgLink: "./../../images/intl-cities.png",
+    imgAlt: "Screenshots of global map and sidebar",
+    title: "International City Names in the U.S.",
+    description: "An interactive map that lets you select a city to see the locations of places in the U.S. that share the name.",
+    org: "Personal project",
+    date: "2024-02-15",
+    dateMonthYr: "Feb 2024",
+    type: "personal",
+    tags: ["Svelte"],
+  },
     {
       link: "https://bmigreenbook.journalism.cuny.edu/",
       imgLink: "./../../images/bmgb.png",
-      imgAlt: "Screenshots of graphics from the Black Media Green Book",
+      imgAlt: "Screenshots of lollipop chart and card graphics from the Black Media Green Book",
       title: "Black Media Green Book",
       description: "Charts and graphics to visualize <a href='https://bmigreenbook.journalism.cuny.edu/tech-stack/survey-findings/'>survey findings</a> and <a href='https://bmigreenbook.journalism.cuny.edu/tech-stack/case-studies/'>case studies</a> for the Black Media Green Book, a resource to connect Black media outlets with freelancers and experts, and give insights into technology access and use.",
       org: "<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>",
@@ -14,7 +26,7 @@ export const data = [
     {
       link: "https://amimap.journalism.cuny.edu/",
       imgLink: "./../../images/aapi-media-map.png",
-      imgAlt: "Screenshot of the AAPI Media Map",
+      imgAlt: "Screenshots of the AAPI Media Map and sidebar",
       title: "AAPI Media Map",
       description:
         "Interactive map of media outlets serving Asian Americans and Pacific Islanders. Includes data tables resulting from applying community, language, format and location filters.",
@@ -27,7 +39,7 @@ export const data = [
     {
       link: "https://amimap.journalism.cuny.edu/visulizations",
       imgLink: "./../../images/aapi-media-vis.png",
-      imgAlt: "Screenshots of visualizations showcasing AAPI media landscape",
+      imgAlt: "Screenshots of map and bubble charts showcasing the AAPI media landscape",
       title: "Visualizing the AAPI media landscape",
       description:
         "Visualizations to showcase the scope and diversity of the Asian American and Pacific Islander media landscape. Accompanies the AAPI Media Directory.",
@@ -40,9 +52,9 @@ export const data = [
     {
       link: "https://abi.journalism.cuny.edu/nys-ad-spending/",
       imgLink: "./../../images/nys-ads.png",
-      imgAlt: "Screenshot of bubble and bar charts for study of New York State agency advertising practices, including the <a href='https://abi.journalism.cuny.edu/nys-ad-spending/gaming-commission/'>Gaming Commission</> and <a href='https://abi.journalism.cuny.edu/nys-ad-spending/children-family-services/'>Children and Family Services</a>.",
+      imgAlt: "Screenshots of bar and bubble charts made for a study of New York state agency advertising practices.",
       title: "Community Blindspot",
-      description: "Bar and bubble charts made for a study of New York state agency advertising practices.",
+      description: "Bubble and bar charts for study of New York State agency advertising practices, including the <a href='https://abi.journalism.cuny.edu/nys-ad-spending/gaming-commission/'>Gaming Commission</a> and <a href='https://abi.journalism.cuny.edu/nys-ad-spending/children-family-services/'>Children and Family Services</a>.",
       org: "<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>",
       date: "2023-09-19",
       dateMonthYr: "Sept 2023",
