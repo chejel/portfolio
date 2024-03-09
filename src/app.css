@@ -1,6 +1,6 @@
 
   
-  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:ital,wght@0,100..900;1,100..900&display=swap');
 
   :root {
     --purple: #5F5D9C;
@@ -16,7 +16,7 @@
       font-family: "Work Sans", sans-serif;
       font-size: 0.9rem;
       color: #333;
-      background: radial-gradient(circle at 50%, #F3EEEA 0%, #EBE3D5 100%);
+      background: radial-gradient(circle at 50%, #F7F4F2 0%, #EBE3D5 100%);
       width: min(90%, 60em);
       margin: auto;
       margin-top: 3rem;
