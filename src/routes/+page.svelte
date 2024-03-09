@@ -54,7 +54,7 @@
 
 	#project-links {
 		margin: 2rem 0;
-		background-color: rgba(249, 232, 151, 0.5);
+		background-color: rgba(168, 162, 182, 0.15);
 		padding: 1rem;
 	}
 
