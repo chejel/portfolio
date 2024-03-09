@@ -1,4 +1,7 @@
 <script>
+	// Icon
+	import ArrowIcon from '$lib/components/ArrowIcon.svelte';
+
 	export let link, imgLink, imgAlt, title, description, org, dateMonthYr, tags;
 </script>
 
@@ -27,7 +30,13 @@
 			{@html description}
 		</p>
 		<!-- Organization -->
-		<p class="organization"><strong>Organization</strong>: {@html org}</p>
+		<p class="organization">
+			{#if org.includes('Personal')}
+				<ArrowIcon /><span style="font-weight: 600;">{@html org}</span>
+			{:else}
+				<ArrowIcon /><strong>Organization:</strong> {@html org}
+			{/if}
+		</p>
 		<!-- Button -->
 		<a class="project" href={link}>View project</a>
 	</div>
@@ -46,14 +55,13 @@
 
 	.screenshots {
 		position: relative;
-		margin-top: 0.25rem;
 		width: 400px;
 		height: auto;
 		border-radius: 5px;
 		border: 0.5px solid var(--purple);
-		background: #d3cce3;
-		background: -webkit-linear-gradient(to bottom, #e9e4f0, #d3cce3);
-		background: linear-gradient(to bottom, #e9e4f0, #d3cce3);
+		background: #d7d0e5;
+		background: -webkit-linear-gradient(to bottom, #f1eef6, #d7d0e5);
+		background: linear-gradient(to bottom, #f1eef6, #d7d0e5);
 	}
 
 	.date {
@@ -97,6 +105,9 @@
 
 	.organization {
 		margin-bottom: 1.25rem;
+		display: flex;
+		align-items: center;
+		gap: 4px;
 	}
 
 	a.project {
