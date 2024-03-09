@@ -19,7 +19,8 @@
       background: radial-gradient(circle at 50%, #F3EEEA 0%, #EBE3D5 100%);
       width: min(90%, 60em);
       margin: auto;
-      margin-top: 5rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
   }
 
   p {
