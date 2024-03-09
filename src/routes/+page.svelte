@@ -2,7 +2,11 @@
 	import Header from '$lib/components/Header.svelte';
 	import Card from '$lib/components/Card.svelte';
 
-	//import { data } from '$lib/data/data.js';
+	import { data } from '$lib/data/work.js';
+	data.forEach((d) => {
+		d.date = new Date(d.date); // Convert date field to Date type
+		d.tags = d.tags.sort((a, b) => a.localeCompare(b));
+	});
 </script>
 
 <header>
@@ -10,7 +14,9 @@
 </header>
 
 <main>
-	<Card />
+	{#each data.sort((a, b) => b.date - a.date) as { link, imgLink, imgAlt, title, description, org, dateMonthYr, tags }}
+		<Card {link} {imgLink} {imgAlt} {title} {description} {org} {dateMonthYr} {tags} />
+	{/each}
 </main>
 
 <style>

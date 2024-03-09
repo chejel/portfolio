@@ -1,56 +1,45 @@
 <script>
-	import bmgb from '$lib/images/bmgb.png';
-	import aapiMap from '$lib/images/aapi-map.png';
+	export let link, imgLink, imgAlt, title, description, org, dateMonthYr, tags;
 </script>
 
 <div class="card-container">
 	<!-- SCREENSHOTS -->
-	<div class="screenshots">
-		<img src={bmgb} alt="" />
+	<div class="screenshots" aria-hidden="true">
+		<a href={link}><img src={imgLink} alt={imgAlt} /></a>
 		<!-- Date -->
-		<span class="date">Oct 2023</span>
+		<span class="date">{dateMonthYr}</span>
 	</div>
 
 	<!-- TEXT -->
 	<div class="description-container">
 		<!-- Title -->
-		<h1>Black Media Green Book</h1>
+		<h1>
+			<a href={link}>{title}</a>
+		</h1>
 		<!-- Tags -->
-		<p class="tags"><span>D3</span> <span>Illustrator</span></p>
+		<p class="tags">
+			{#each tags as tag}
+				<span>{tag}</span>
+			{/each}
+		</p>
 		<!-- Description -->
 		<p class="description">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor consectetur ante
-			eu laoreet. Nunc neque magna, posuere eu lectus at, consectetur dapibus arcu. Morbi non dui
-			lectus. Etiam fringilla sapien vitae dui sollicitudin mattis. Curabitur vitae nulla nunc.
+			{@html description}
 		</p>
+		<!-- Organization -->
+		<p class="organization"><strong>Organization</strong>: {@html org}</p>
 		<!-- Button -->
-		<a class="project" href="https://bmigreenbook.journalism.cuny.edu/">View project</a>
+		<a class="project" href={link}>View project</a>
 	</div>
 </div>
-<div class="card-container">
-	<!-- SCREENSHOTS -->
-	<div class="screenshots"><img src={aapiMap} alt="" /></div>
-	<!-- TEXT -->
-	<div class="description-container">
-		<!-- Title -->
-		<h1>AAPI Media Map</h1>
-		<!-- Tags -->
-		<p class="tags"><span>Svelte</span></p>
-		<!-- Description -->
-		<p class="description">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor consectetur ante
-			eu laoreet. Nunc neque magna, posuere eu lectus at, consectetur dapibus arcu. Morbi non dui
-			lectus. Etiam fringilla sapien vitae dui sollicitudin mattis. Curabitur vitae nulla nunc.
-		</p>
-	</div>
-</div>
+<hr />
 
 <style>
 	.card-container {
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		gap: 25px;
+		gap: 35px;
 		width: 100%;
 		margin: 3rem 0;
 	}
@@ -61,18 +50,10 @@
 		width: 400px;
 		height: auto;
 		border-radius: 5px;
-		border: 0.5px solid purple;
-		background: #d3cce3; /* fallback for old browsers */
-		background: -webkit-linear-gradient(
-			to bottom,
-			#e9e4f0,
-			#d3cce3
-		); /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(
-			to bottom,
-			#e9e4f0,
-			#d3cce3
-		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		border: 0.5px solid var(--purple);
+		background: #d3cce3;
+		background: -webkit-linear-gradient(to bottom, #e9e4f0, #d3cce3);
+		background: linear-gradient(to bottom, #e9e4f0, #d3cce3);
 	}
 
 	.date {
@@ -90,6 +71,15 @@
 		width: calc(100% - 400px);
 	}
 
+	h1 a {
+		text-decoration: none;
+		color: #333;
+	}
+
+	h1 a:hover {
+		color: rgba(51, 51, 51, 0.85);
+	}
+
 	.tags {
 		display: flex;
 		gap: 15px;
@@ -97,16 +87,21 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		font-family: 'Work Sans', sans-serif;
-		color: purple;
+		color: var(--purple);
+		margin-top: 0.25rem;
 	}
 
 	.description {
-		margin: 0.5rem 0 1rem 0;
+		margin: 0.5rem 0 0.25rem 0;
+	}
+
+	.organization {
+		margin-bottom: 1.25rem;
 	}
 
 	a.project {
 		border: 0;
-		background-color: purple;
+		background-color: var(--purple);
 		color: white;
 		text-transform: uppercase;
 		font-size: 0.8rem;
@@ -114,6 +109,15 @@
 		padding: 7px 12px;
 		border-radius: 2px;
 		text-decoration: none;
+	}
+
+	a:hover.project {
+		background-color: rgba(95, 93, 156, 0.9);
+	}
+
+	hr {
+		width: 90%;
+		margin: auto;
 	}
 
 	@media screen and (max-width: 600px) {
