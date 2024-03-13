@@ -9,7 +9,7 @@ export const data = [
     date: "2024-02-15",
     dateMonthYr: "Feb 2024",
     type: "personal",
-    tags: ["Svelte"],
+    tags: ["Mapbox", "Svelte"],
   },
     {
       link: "https://bmigreenbook.journalism.cuny.edu/",
@@ -34,7 +34,7 @@ export const data = [
       dateMonthYr: "Dec 2023",
       date: "2023-12-08",
       type: "work",
-      tags: ["Svelte"],
+      tags: ["Mapbox", "Svelte"],
     },
     {
       link: "https://amimap.journalism.cuny.edu/visulizations",
@@ -47,7 +47,7 @@ export const data = [
       dateMonthYr: "Dec 2023",
       date: "2023-12-08",
       type: "work",
-      tags: ["D3"],
+      tags: ["D3", "Svelte"],
     },
     {
       link: "https://abi.journalism.cuny.edu/nys-ad-spending/",
