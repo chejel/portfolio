@@ -1,6 +1,6 @@
 export const data = [
   {
-    link: "https://icnus.netlify.app/",
+    link: "https://chejel.github.io/intl-us-globe/",
     imgLink: "./../../images/intl-cities.png",
     imgAlt: "Screenshots of global map and sidebar",
     title: "International City Names in the U.S.",
