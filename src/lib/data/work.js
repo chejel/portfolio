@@ -3,7 +3,7 @@ export const data = [
 		link: 'https://drive.google.com/file/d/1UaX5WkYObadeWos2NcJ3HGjyMCClR0za/view?usp=drive_link',
 		imgLink: './../../images/ami-report.png',
 		imgAlt: 'Screenshots of select pages from the AMI report',
-		title: 'AAPI Media: Origins and Futures',
+		title: 'AAPI News Media: Origins and Futures',
 		description:
 			'Designed the PDF for this report on the evolution of the news media ecosystem for Asian Americans and Pacific Islanders.',
 		org: `<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>`,
