@@ -3,7 +3,7 @@
 </script>
 
 <img src={logo} alt="" width="400" />
-<span class="subheader">Portfolio of data visualizations + dashboards</span>
+<span class="subheader">Portfolio of data visualizations, dashboards and designs</span>
 
 <style>
 	.subheader {
