@@ -8,7 +8,11 @@
 <div class="card-container">
 	<!-- SCREENSHOTS -->
 	<div class="screenshots" aria-hidden="true">
-		<a href={link}><img src={imgLink} alt={imgAlt} /></a>
+		{#if link}
+			<a href={link}><img src={imgLink} alt={imgAlt} /></a>
+		{:else}
+			<img src={imgLink} alt={imgAlt} />
+		{/if}
 		<!-- Date -->
 		<span class="date">{dateMonthYr}</span>
 	</div>
@@ -17,7 +21,11 @@
 	<div class="description-container">
 		<!-- Title -->
 		<h1>
-			<a href={link}>{title}</a>
+			{#if link}
+				<a href={link}>{title}</a>
+			{:else}
+				{title}
+			{/if}
 		</h1>
 		<!-- Tags -->
 		<p class="tags">
@@ -38,7 +46,11 @@
 			{/if}
 		</p>
 		<!-- Button -->
-		<a class="project" href={link}>View project</a>
+		{#if link}
+			<a class="project" href={link}>View project</a>
+		{:else}
+			<button class="project project--in-progress">In progress</button>
+		{/if}
 	</div>
 </div>
 <hr />
@@ -110,7 +122,7 @@
 		gap: 4px;
 	}
 
-	a.project {
+	.project {
 		border: 0;
 		background-color: var(--purple);
 		color: white;
@@ -124,6 +136,11 @@
 
 	a:hover.project {
 		background-color: rgba(95, 93, 156, 0.9);
+	}
+
+	.project--in-progress {
+		background-color: hsl(242, 5%, 60%);
+		pointer-events: none;
 	}
 
 	hr {
