@@ -1,73 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:ital,wght@0,100..900;1,100..900&display=swap');
 
-  
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+	--purple: hsl(242, 25%, 49%); /* #5f5d9c; */
+}
 
-  :root {
-    --purple: #5F5D9C;
-  }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  
-  body {
-      font-family: "Work Sans", sans-serif;
-      font-size: 0.9rem;
-      color: #333;
-      background: radial-gradient(circle at 50%, #F7F4F2 0%, #EBE3D5 100%);
-      width: min(90%, 60em);
-      margin: auto;
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-  }
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 0.9rem;
+	color: #333;
+	background: radial-gradient(circle at 50%, #f7f4f2 0%, #ebe3d5 100%);
+	width: min(90%, 60em);
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
 
-  p {
-    line-height: 1.4;
-  }
-  
-  a {
-    color: #1F6DB4; /* #0174BE; */
-  }
-  
-  h1 {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.2;
-  }
-  
-  h2 {
-    font-family: 'Roboto Slab', sans-serif;
-  }
-  
-  button {
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #1f6db4; /* #0174BE; */
+}
+
+h1 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+h2 {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+/* button {
     font-family: "Hind", sans-serif;
     background-color: transparent;
     border: 0;
     cursor: pointer;
     color: #333;
-  }
-  
-  ul {
-    list-style-position: outside;
-    padding-left: 0.5rem;
-  }
-  
-  li {
-    margin: 5px;
-  }
-  
-  hr {
-    border: 0;
-    height: 0;
-    border-top: 0.5px solid var(--purple);
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+  } */
+
+ul {
+	list-style-position: outside;
+	padding-left: 0.5rem;
+}
+
+li {
+	margin: 5px;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 0.5px solid var(--purple);
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
