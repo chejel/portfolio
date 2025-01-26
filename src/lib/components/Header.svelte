@@ -1,8 +1,8 @@
 <script>
-	import logo from '$lib/images/jc-signature.png';
+	import logo from '$lib/images/header-sig.png';
 </script>
 
-<img src={logo} alt="" width="400" />
+<img src={logo} alt="" width="500" />
 <span class="subheader">Portfolio of data visualizations, dashboards and designs</span>
 
 <style>
