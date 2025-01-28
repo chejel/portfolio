@@ -2,7 +2,7 @@
 	import logo from '$lib/images/header-sig.png';
 </script>
 
-<img src={logo} alt="" width="500" />
+<img src={logo} alt="Jennifer Cheng, written in cursive style, resembling signature" width="500" />
 <span class="subheader">Portfolio of data visualizations, dashboards and designs</span>
 
 <style>
