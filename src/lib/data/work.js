@@ -1,7 +1,7 @@
 export const data = [
 	{
 		link: 'https://nycmap.journalism.cuny.edu/',
-		imgLink: './../../images/mvoc-map-ip.png',
+		imgLink: './../../images/mvoc-map.png',
 		imgAlt: 'Screenshot of NYC area map showing media outlet locations',
 		title: 'Many Voices, One City Map',
 		description: `<strong>Interactive map</strong> showcasing community media outlets in the New York City metro area.`,
