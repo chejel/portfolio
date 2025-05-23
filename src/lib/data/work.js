@@ -1,13 +1,13 @@
 export const data = [
 	{
-		link: '',
+		link: 'https://nycmap.journalism.cuny.edu/',
 		imgLink: './../../images/mvoc-map-ip.png',
 		imgAlt: 'Screenshot of NYC area map showing media outlet locations',
 		title: 'Many Voices, One City Map',
 		description: `<strong>Interactive map</strong> showcasing community media outlets in the New York City metro area.`,
 		org: `<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>`,
 		date: '2024-05-26',
-		dateMonthYr: 'In progress',
+		dateMonthYr: 'May 2025',
 		type: 'work',
 		tags: ['Mapbox', 'Svelte']
 	},
