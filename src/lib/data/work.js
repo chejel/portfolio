@@ -1,12 +1,24 @@
 export const data = [
 	{
+		link: 'https://lgbtqmediamap.journalism.cuny.edu/',
+		imgLink: './../../images/lgbtq-map.png',
+		imgAlt: 'Screenshot of Local LGBTQ Media Map',
+		title: 'Local LGBTQ+ Media Map',
+		description: `<strong>Interactive map</strong> showing the landscape of local LGBTQ+ media outlets across the U.S.`,
+		org: `<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>, <a href="https://www.macfound.org/">MacArthur Foundation</a>, <a href="https://localmedia.org/">Local Media Foundation</a>, <a href="https://newsisout.com/">News is Out</a>`,
+		date: '2025-09-08',
+		dateMonthYr: 'September 2025',
+		type: 'work',
+		tags: ['Mapbox', 'Svelte']
+	},
+	{
 		link: 'https://nycmap.journalism.cuny.edu/',
 		imgLink: './../../images/mvoc-map.png',
 		imgAlt: 'Screenshot of NYC area map showing media outlet locations',
 		title: 'Many Voices, One City Map',
 		description: `<strong>Interactive map</strong> showcasing community media outlets in the New York City metro area.`,
 		org: `<a href='https://www.journalism.cuny.edu/centers/center-community-media/'>Center for Community Media</a>`,
-		date: '2024-05-26',
+		date: '2025-05-22',
 		dateMonthYr: 'May 2025',
 		type: 'work',
 		tags: ['Mapbox', 'Svelte']

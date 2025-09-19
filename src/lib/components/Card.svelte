@@ -38,13 +38,18 @@
 			{@html description}
 		</p>
 		<!-- Organization -->
-		<p class="organization">
+		<div class="organization">
 			{#if org.includes('Personal')}
-				<ArrowIcon /><span style="font-weight: 600;">{@html org}</span>
+				<div class="organization-icon"><ArrowIcon /></div>
+				<div class="organization-text" style="font-weight: 600;">{@html org}</div>
 			{:else}
-				<ArrowIcon /><strong>Organization:</strong> {@html org}
+				<div class="organization-icon"><ArrowIcon /></div>
+				<div class="organization-text">
+					<b>{org.includes(',') ? 'Organizations' : 'Organization'}:</b>
+					{@html org}
+				</div>
 			{/if}
-		</p>
+		</div>
 		<!-- Button -->
 		{#if link}
 			<a class="project" href={link}>View project</a>
@@ -118,8 +123,19 @@
 	.organization {
 		margin-bottom: 1.25rem;
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		gap: 4px;
+	}
+
+	.organization-icon {
+		flex-shrink: 0;
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.organization-text {
+		flex: 1;
+		line-height: inherit;
 	}
 
 	.project {
